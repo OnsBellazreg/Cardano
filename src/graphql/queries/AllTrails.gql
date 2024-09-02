@@ -1,0 +1,19 @@
+query AllTrails{
+  allTrails{
+    id
+    name
+    status
+    difficulty
+    groomed
+    trees
+    night
+    accessedByLifts {
+      id
+      name
+      status
+      capacity
+      night
+      elevationGain
+    }
+  }
+}

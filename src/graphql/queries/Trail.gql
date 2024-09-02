@@ -1,0 +1,19 @@
+query Trail($id: ID!){
+  Trail(id: $id){
+    id
+    name
+    status
+    difficulty
+    groomed
+    trees
+    night
+    accessedByLifts {
+      id
+      name
+      status
+      capacity
+      night
+      elevationGain
+    }
+  }
+}

@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrailDetail displays trail details when data is loaded 1`] = `
+<div>
+  <div
+    class="css-iab5yi"
+  >
+    <div
+      class="css-13t9dym"
+    >
+      <div
+        class="css-z3npd7"
+      >
+        <img
+          class="chakra-image css-0"
+          src="/images/trail.png"
+        />
+        <div
+          class="css-tc8c76"
+        >
+          <h2
+            class="chakra-heading css-1uvsvno"
+          >
+            Blue Bird
+          </h2>
+          <span
+            class="chakra-badge css-1m09api"
+          />
+        </div>
+      </div>
+      <div
+        class="css-0"
+      >
+        <h3
+          class="chakra-heading css-1itv5e3"
+        >
+          Details
+        </h3>
+        <div
+          class="chakra-stack css-13kdors"
+        >
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <svg
+              class="chakra-icon css-2u1jce"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  fill="none"
+                  r="11.25"
+                  stroke-miterlimit="10"
+                />
+              </g>
+            </svg>
+            <p
+              class="chakra-text css-0"
+            >
+              <strong>
+                Groomed
+                :
+              </strong>
+               
+              No
+            </p>
+          </div>
+          <div
+            class="chakra-stack__divider css-xgvkl8"
+          />
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <svg
+              class="chakra-icon css-2u1jce"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  fill="none"
+                  r="11.25"
+                  stroke-miterlimit="10"
+                />
+              </g>
+            </svg>
+            <p
+              class="chakra-text css-0"
+            >
+              <strong>
+                Trees
+                :
+              </strong>
+               
+              No
+            </p>
+          </div>
+          <div
+            class="chakra-stack__divider css-xgvkl8"
+          />
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <svg
+              class="chakra-icon css-1667dh9"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  fill="none"
+                  r="11.25"
+                  stroke-miterlimit="10"
+                />
+              </g>
+            </svg>
+            <p
+              class="chakra-text css-0"
+            >
+              <strong>
+                Night
+                :
+              </strong>
+               
+              Yes
+            </p>
+          </div>
+          <div
+            class="chakra-stack__divider css-xgvkl8"
+          />
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <svg
+              class="chakra-icon css-2u1jce"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  fill="none"
+                  r="11.25"
+                  stroke-miterlimit="10"
+                />
+              </g>
+            </svg>
+            <p
+              class="chakra-text css-0"
+            >
+              <strong>
+                Difficulty
+                :
+              </strong>
+               
+              Easy
+            </p>
+          </div>
+          <div
+            class="chakra-stack__divider css-xgvkl8"
+          />
+          <div
+            class="chakra-stack css-1igwmid"
+          >
+            <svg
+              class="chakra-icon css-2u1jce"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                  fill="currentColor"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  fill="none"
+                  r="11.25"
+                  stroke-miterlimit="10"
+                />
+              </g>
+            </svg>
+            <p
+              class="chakra-text css-0"
+            >
+              <strong>
+                Elevation Gain
+                :
+              </strong>
+               
+              300 ft
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-pwzhxe"
+    />
+    <div
+      class="css-0"
+    >
+      <h3
+        class="chakra-heading css-1itv5e3"
+      >
+        Accessed By Lifts
+      </h3>
+      <div
+        class="css-1d3vlji"
+      >
+        <div
+          class="chakra-card css-2dlz7"
+        >
+          <div
+            class="chakra-card__header css-1g27vng"
+          >
+            <h4
+              class="chakra-heading css-ex1lad"
+            >
+              Lift A
+            </h4>
+          </div>
+          <div
+            class="chakra-card__body css-0"
+          >
+            <div
+              class="chakra-stack css-13kdors"
+            >
+              <div
+                class="chakra-stack css-1igwmid"
+              >
+                <svg
+                  class="chakra-icon css-2u1jce"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11.25"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                </svg>
+                <p
+                  class="chakra-text css-0"
+                >
+                  <strong>
+                    Status
+                    :
+                  </strong>
+                   
+                  OPEN
+                </p>
+              </div>
+              <div
+                class="chakra-stack__divider css-xgvkl8"
+              />
+              <div
+                class="chakra-stack css-1igwmid"
+              >
+                <svg
+                  class="chakra-icon css-2u1jce"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11.25"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                </svg>
+                <p
+                  class="chakra-text css-0"
+                >
+                  <strong>
+                    Night
+                    :
+                  </strong>
+                   
+                  Yes
+                </p>
+              </div>
+              <div
+                class="chakra-stack__divider css-xgvkl8"
+              />
+              <div
+                class="chakra-stack css-1igwmid"
+              >
+                <svg
+                  class="chakra-icon css-2u1jce"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11.25"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                </svg>
+                <p
+                  class="chakra-text css-0"
+                >
+                  <strong>
+                    Capacity
+                    :
+                  </strong>
+                   
+                  4
+                </p>
+              </div>
+              <div
+                class="chakra-stack__divider css-xgvkl8"
+              />
+              <div
+                class="chakra-stack css-1igwmid"
+              >
+                <svg
+                  class="chakra-icon css-2u1jce"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9,9a3,3,0,1,1,4,2.829,1.5,1.5,0,0,0-1,1.415V14.25"
+                      fill="none"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12,17.25a.375.375,0,1,0,.375.375A.375.375,0,0,0,12,17.25h0"
+                      fill="currentColor"
+                      stroke-linecap="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11.25"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                </svg>
+                <p
+                  class="chakra-text css-0"
+                >
+                  <strong>
+                    Elevation
+                    :
+                  </strong>
+                   
+                  300 ft
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TrailDetail handles error when data fetching fails 1`] = `
+<div>
+  <p>
+    Error: 
+    Failed to fetch trail details
+  </p>
+</div>
+`;
+
+exports[`TrailDetail shows Trail not found message when no trail matches the ID 1`] = `
+<div>
+  <p
+    class="chakra-text css-0"
+  >
+    Trail not found.
+  </p>
+</div>
+`;

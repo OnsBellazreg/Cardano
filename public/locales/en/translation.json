@@ -1,0 +1,14 @@
+{
+    "filters": {
+        "difficulty": "Difficulty",
+        "groomed": "Groomed",
+        "ungroomed": "Ungroomed",
+        "elevation": "Elevation (meters)",
+        "show_only_open" : "Open trails only",
+        "show_only_favs" : "My favorites"
+    },
+    "common": {
+        "meters": "meters",
+        "feet": "ft"
+    }
+}
