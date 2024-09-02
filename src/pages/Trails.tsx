@@ -90,7 +90,7 @@ export const Trails = () => {
 
       <SimpleGrid columns={{ base: 1, sm: 2, lg: 3 }} spacing={8}>
         {loading
-          ? Array.from({ length: 6 }, () => <TrailCardSkeleton />)
+          ? Array.from({ length: 6 }, (_, i) => <TrailCardSkeleton key={i} />)
           : null}
         {filteredTrails?.map((trail) => (
           <Link
