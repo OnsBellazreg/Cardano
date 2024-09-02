@@ -37,6 +37,7 @@
   },
   "scripts": {
     "start": "env-cmd -f .env craco start",
+    "build": "env-cmd -f .env craco build",
     "test": "env-cmd -f .env jest",
     "eject": "react-scripts eject",
     "generate:graphql": "env-cmd -f .env graphql-codegen --config codegen.ts",

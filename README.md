@@ -13,20 +13,20 @@ Cardano´s assignement is a web app written in React for sharing ski resort and 
 
 ## Setup Instructions
 
-### 1. Install Dependencies
-
-Run the following command to install dependencies:
-
-```bash
-yarn
-```
-
-### 2. Set Up Environment Variables
+### 1. Set Up Environment Variables
 
 Run the following command to set up environment variables:
 
 ```bash
 cp .env.example .env
+```
+
+### 2. Install Dependencies
+
+Run the following command to install dependencies:
+
+```bash
+yarn
 ```
 
 ### 3. Build

@@ -63,18 +63,30 @@ describe('Trails', () => {
       data: { allTrails: [] },
       loading: true,
     });
-    render(<Trails />);
+    render(
+      <Router>
+        <Trails />
+      </Router>,
+    );
     expect(screen.getAllByTestId('trail-card-skeleton')).toHaveLength(6); // Adjust based on your skeleton setup
   });
 
   it('displays trail cards when data is loaded', async () => {
-    render(<Trails />);
+    render(
+      <Router>
+        <Trails />
+      </Router>,
+    );
 
     expect(screen.getByText('Blue Bird')).toBeInTheDocument();
   });
 
   it('links to the correct trail detail page', () => {
-    render(<Trails />);
+    render(
+      <Router>
+        <Trails />
+      </Router>,
+    );
     expect(screen.getByText('Blue Bird').closest('a')).toHaveAttribute(
       'href',
       '/trails/1',

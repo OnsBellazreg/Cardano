@@ -1,6 +1,7 @@
 import {
   Badge,
   Box,
+  Button,
   Card,
   CardBody,
   CardHeader,
@@ -15,11 +16,10 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
-import React, { useEffect } from 'react';
-import { ErrorBoundary, useErrorBoundary } from 'react-error-boundary';
-import { GrStatusUnknown } from 'react-icons/all';
+import React from 'react';
 import {
   FaAngleDoubleUp,
+  FaArrowLeft,
   FaMoon,
   FaRegMoon,
   FaSkiing,
@@ -27,7 +27,8 @@ import {
   FaTree,
   FaUserFriends,
 } from 'react-icons/fa';
-import { useParams } from 'react-router-dom';
+import { GrStatusUnknown } from 'react-icons/gr';
+import { Link, redirect, useNavigate, useParams } from 'react-router-dom';
 
 import TrailDetailSkeleton from '@/components/Trail/TrailDetail.skeleton';
 import { Lift, useTrailQuery } from '@/graphql/generated';
@@ -80,6 +81,10 @@ export const TrailDetail = () => {
 
   return (
     <Box maxWidth={'100%'} w={'container.lg'} m={'auto'} p={4}>
+      {/* Back button */}
+      <Button as={Link} to="/" aria-label="Go back" mb={4}>
+        Go Back
+      </Button>
       <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={4}>
         <Flex
           position="relative"

@@ -42,11 +42,6 @@ const mockTrail: Trail = {
   trees: false,
 };
 
-const MockTrailDetailWithParams = () => {
-  const { id } = useParams<{ id: string }>();
-  return <TrailDetail />;
-};
-
 describe('TrailDetail', () => {
   beforeEach(() => {
     (useTrailQuery as jest.Mock).mockReturnValue({
@@ -56,18 +51,12 @@ describe('TrailDetail', () => {
     });
   });
 
-  // it('renders the loading skeleton while data is loading', () => {
-  //   (useTrailQuery as jest.Mock).mockReturnValue({
-  //     data: { allTrails: [] },
-  //     loading: true,
-  //     error: null,
-  //   });
-  //   const { container } = render(<TrailDetail />);
-  //   expect(container).toMatchSnapshot();
-  // });
-
   it('displays trail details when data is loaded', async () => {
-    const { container } = render(<MockTrailDetailWithParams />);
+    const { container } = render(
+      <Router>
+        <TrailDetail />
+      </Router>,
+    );
     expect(container).toMatchSnapshot();
   });
 
@@ -78,7 +67,11 @@ describe('TrailDetail', () => {
       error: { message: 'Failed to fetch trail details' },
     });
 
-    const { container } = render(<MockTrailDetailWithParams />);
+    const { container } = render(
+      <Router>
+        <TrailDetail />
+      </Router>,
+    );
 
     expect(
       await screen.findByText('Error: Failed to fetch trail details'),
@@ -94,8 +87,13 @@ describe('TrailDetail', () => {
       error: null,
     });
 
-    const { container } = render(<MockTrailDetailWithParams />);
+    const { container } = render(
+      <Router>
+        <TrailDetail />
+      </Router>,
+    );
     expect(container).toMatchSnapshot();
 
-    expect(await screen.findByText('Trail not found.')).toBeInTheDocument()
+    expect(await screen.findByText('Trail not found.')).toBeInTheDocument();
+  });
 });

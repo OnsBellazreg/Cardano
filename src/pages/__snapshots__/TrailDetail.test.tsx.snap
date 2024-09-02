@@ -5,6 +5,13 @@ exports[`TrailDetail displays trail details when data is loaded 1`] = `
   <div
     class="css-iab5yi"
   >
+    <a
+      aria-label="Go back"
+      class="chakra-button css-eaw8jh"
+      href="/"
+    >
+      Go Back
+    </a>
     <div
       class="css-13t9dym"
     >
