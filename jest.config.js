@@ -26,5 +26,8 @@ module.exports = {
     'package-lock.json',
     'src/resources/icons/generated',
     'src/graphql',
+    'src/App.tsx',
+    'src/i18n.ts',
+    'src/pages/index.ts',
   ],
 };

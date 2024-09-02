@@ -59,15 +59,15 @@ export const Trails = () => {
     if (groomed === 'ALL') matchesGroomed = true;
     else if (groomed === 'GROOMED') matchesGroomed = trail.groomed;
     else if (groomed === 'NON-GROOMED') matchesGroomed = !trail.groomed;
-
-    const lifts = [...trail.accessedByLifts];
-    lifts.sort((a, b) => a.elevationGain - b.elevationGain);
-
     // Filter by elevationGain
     const matchesElevationGain =
       elevationGain && elevationGain.length === 2
-        ? lifts[0].elevationGain >= elevationGain[0] &&
-          lifts[0].elevationGain <= elevationGain[1]
+        ? trail.accessedByLifts.some((lift) => {
+            return (
+              lift.elevationGain >= elevationGain[0] &&
+              lift.elevationGain <= elevationGain[1]
+            );
+          })
         : true;
 
     return (

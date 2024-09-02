@@ -3,7 +3,7 @@
         "difficulty": "Difficulty",
         "groomed": "Groomed",
         "ungroomed": "Ungroomed",
-        "elevation": "Elevation (meters)",
+        "elevation": "Elevation (ft)",
         "show_only_open" : "Open trails only",
         "show_only_favs" : "Saved trails"
     },
