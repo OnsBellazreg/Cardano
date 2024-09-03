@@ -13,7 +13,6 @@ import {
   StackDivider,
   VStack,
 } from '@chakra-ui/react';
-import React from 'react';
 
 export const TrailDetailSkeleton = () => {
   return (
@@ -49,7 +48,7 @@ export const TrailDetailSkeleton = () => {
             mb={4}
           />
           <VStack align="start" spacing={2} divider={<StackDivider />}>
-            {[...Array(5)].map((_, index) => (
+            {Array.from({ length: 5 }, (_, index) => (
               <HStack key={index} w="full">
                 <SkeletonCircle size="6" />
                 <SkeletonText noOfLines={1} skeletonHeight="20px" width="80%" />

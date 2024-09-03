@@ -81,7 +81,6 @@ export const TrailDetail = () => {
 
   return (
     <Box maxWidth={'100%'} w={'container.lg'} m={'auto'} p={4}>
-      {/* Back button */}
       <Button as={Link} to="/" aria-label="Go back" mb={4}>
         Go Back
       </Button>
